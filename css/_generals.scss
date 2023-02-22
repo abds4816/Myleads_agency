@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-padding {
+    padding: 3rem 0;
+}
+
+.btn {
+    padding: .75rem 1.75rem;
+    border-radius: 0;
+    color: $color-white;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border-radius: .25rem;
+
+    &:hover {
+        color: $color-white;
+    }
+}
+
+.main-btn {
+    background-color: $color-primary;
+
+    &:hover {
+        background-color: darken($color-primary, 5%);
+    }
+}

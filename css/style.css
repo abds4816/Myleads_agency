@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-padding {
+  padding: 3rem 0;
+}
+
+.btn {
+  padding: 0.75rem 1.75rem;
+  border-radius: 0;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border-radius: 0.25rem;
+}
+.btn:hover {
+  color: #ffffff;
+}
+
+.main-btn {
+  background-color: #0d79ec;
+}
+.main-btn:hover {
+  background-color: #0c6dd4;
+}
+
+/* ========== Navbar Starts ========== */
+.navbar-brand {
+  width: 6rem;
+}
+
+/* ========== Navbar Ends ========== */
+/* ========== Main Section Starts ========== */
+.main-section {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 90vh;
+  position: relative;
+}
+.main-section::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  opacity: 0.3;
+  z-index: 1;
+}
+.main-section .introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 90vh;
+  z-index: 2;
+}
+
+.company {
+  cursor: pointer;
+  filter: grayscale(100%);
+  width: 75%;
+  margin: auto;
+}
+.company:hover {
+  filter: grayscale(0);
+}
+
+/* ========== Main Section Ends ========== */
+/* ========== Services Section Starts ========== */
+.services-section .service-item {
+  padding: 1rem 0.625rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+.services-section .service-item .service-icon {
+  width: 100px;
+}
+
+/* ========== Services Section Starts ========== */
+/* ========== Features Section Starts ========== */
+/* ========== Features Section Ends ========== */
+/* ========== Team Section Starts ========== */
+.team-section .card-body .card-title {
+  color: #0d79ec;
+}
+.team-section .card-body li {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fb5f5f;
+}
+.team-section .card-body li .bi {
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+/* ========== Team Section Ends ========== */
+/* ========== Pricing Section Starts ========== */
+/* ========== Pricing Section Ends ========== */
+/* ========== Clients Section Starts ========== */
+/* ========== Clients Section Ends ========== */
+/* ========== Contact Section Starts ========== */
+/* ========== Contact Section Ends ========== */
+/* ========== Footer Starts ========== */
+.footer .logo {
+  width: 10rem;
+}
+.footer .socials .bi {
+  font-size: 1.5rem;
+  color: #424040;
+}
+
+/* ========== Footer Ends ========== */
+/* ========== Responsive Starts ========== */
+@media (max-width: 991px) {
+  .title-area {
+    width: 75% !important;
+  }
+  .contact-form {
+    width: 85% !important;
+  }
+}
+@media (max-width: 767px) {
+  .title-area {
+    width: 95% !important;
+  }
+  .contact-form {
+    width: 100% !important;
+  }
+}
+/* ========== Responsive Ends ========== *//*# sourceMappingURL=style.css.map */
